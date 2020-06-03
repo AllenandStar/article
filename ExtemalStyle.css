@@ -1,0 +1,125 @@
+*{
+    /*
+    margin代表外边距：当元素没有重合时使用
+    margin-top上边距
+    margin-right右边距
+    margin-bottom下边距
+    margin-left左边距
+
+    padding内边距
+    padding-top上边距
+    padding-right右边距
+    padding-bottom下边距
+    padding-left左边距
+    */
+    margin: 0;
+    /*内间距*/
+    padding: 0;
+}
+
+header{
+    color: white;
+    line-height: 44px;
+    font-size: 18px;
+    background: rgb(40,133,202);
+    text-align: center;
+    width: 100%;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.DS_second_section img{
+    width: 100%;
+}
+
+body{
+    background: rgb(244,244,246);
+    padding-top: 44px;
+    padding-bottom: 49px;
+}
+
+footer{
+    display: table;
+    width: 100%;
+    background: black;
+    height: 49px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+footer a{
+    display: table-cell;
+    width: 20%;
+    text-decoration: none;/*去掉装饰*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer a span{
+    display: block;
+    color: white;
+    font-size: 12px;
+}
+
+footer a img{
+    width: 18px;
+}
+.BP_first_section{
+    display: table;
+    width: 100%;
+    background: rgb(244, 244, 246);
+    height: 44px;
+
+    left:0;
+    top: 44px;
+    position: fixed;
+}
+
+.BP_first_section a{
+    display: table-cell;
+    width: 33.3%;
+    text-decoration: none;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.BP_first_section a span{
+    color: black;
+}
+
+
+
+.BP_external_div{
+    background: white;
+    text-align: center;
+}
+
+.BP_span{
+    font-size: 14px;
+}
+
+.BP_img{
+    width: 100%;
+}
+
+.BP_first_p{
+    font-size: 10px;
+    color:gray;
+}
+
+.BP_external_div_sec {
+    text-align: center;
+}
+
+.BP_inner_div{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 10px;
+    color: gray;
+    line-height: 2em;
+}
+
